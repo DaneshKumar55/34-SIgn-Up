@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <div class="container-fluid " id="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-5 main_card_col">
+                <div class="section_1_main">
+                    <div class="section_1">
+                        <h1>Sign Up</h1>
+                    <p>Please fill this form to create an account!</p>
+                    <hr>
+                    <input type="text" id="First_Name" placeholder="First Name">
+                    <input type="text" id="Last_Name" placeholder="Last Name">
+                    <!--  -->
+                    <input type="email" id="email" placeholder="Email"> <br>
+                    <input type="password" id="password" placeholder="password"><br>
+                    <input type="password" id="Confrim_password" placeholder="Confrim password">
+                    <p id="message"></p>
+                </div>
+                        <!--  -->
+                <div class="section_2">
+                    <input type="checkbox" name="accept" id="accept">
+                <label for="accept">I accept the <a href="">term of use</a> & <a href="#">privacy</a></label>
+                </div>
+                     <!--  -->
+                <div class="section_3">
+                    <button onclick="signUpHandler()">Sign Up</button>
+                </div>
+                </div>
+                    <p class=" text-center">Always here an account? <a href="#">Login here</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+<script src="./bootstrap-5.3.1-dist/js/bootstrap.js"></script>
+    <script src="./JavaScript/App.js"></script>
+</body>
+</html>
